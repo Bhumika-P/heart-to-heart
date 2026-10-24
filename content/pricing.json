@@ -1,0 +1,32 @@
+{
+  "currency": "USD",
+  "authority": "https://www.hearttoheartlifecoaching.com/invest-in-yourself.html",
+  "approved_on": "2026-10-22",
+  "legacy_store_prices": "ignore",
+  "services": [
+    {
+      "id": "discovery-call",
+      "label": "Discovery Phone Call",
+      "duration_minutes": 20,
+      "price": 0
+    },
+    {
+      "id": "phone-virtual",
+      "label": "Phone or Virtual Coaching",
+      "duration_minutes": 60,
+      "price": 100
+    },
+    {
+      "id": "emergency-phone-virtual",
+      "label": "Emergency Phone or Virtual Coaching",
+      "duration_minutes": 60,
+      "price": 150,
+      "eligibility": "Established clients; retain source scheduling and confirmation conditions."
+    }
+  ],
+  "in_person": {
+    "publish_price": false,
+    "retain_service_content": true
+  },
+  "external_checkout_verification": "required before launch; do not imply TimeTap prices have already changed"
+}

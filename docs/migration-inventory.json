@@ -1,0 +1,1899 @@
+[
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/singles-coaching.html",
+    "path": "singles-coaching.html",
+    "title": "Singles Coaching",
+    "sha256": "cb958bdeeecd47444a3592e403a6f7202ad4dc566d126774898ec2a40c101a3d",
+    "content_chars": 686,
+    "forms": [],
+    "links": [],
+    "images": [],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/getting-to-know-you.html",
+    "path": "getting-to-know-you.html",
+    "title": "Getting to Know You",
+    "sha256": "79d5bceba879753afca417505139d44d384981c406ba966496adacc5c1a6128d",
+    "content_chars": 1142,
+    "forms": [],
+    "links": [
+      "/uploads/2/4/3/7/24378647/welcome_letter-v4_2.pdf",
+      "/uploads/2/4/3/7/24378647/values_exercise-v6_2.pdf",
+      "/uploads/2/4/3/7/24378647/learning_style_test-v5_2.pdf",
+      "/uploads/2/4/3/7/24378647/thinking_style_test-v5_2.pdf",
+      "/uploads/2/4/3/7/24378647/wheel_of_life-v2_2.pdf",
+      "/uploads/2/4/3/7/24378647/passion-v5_2.pdf"
+    ],
+    "images": [
+      "//www.weebly.com/weebly/images/file_icons/pdf.png"
+    ],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/about-us.html",
+    "path": "about-us.html",
+    "title": "About Us",
+    "sha256": "47421bd06d3d815504bbccdceaf7cf68602b0dcde13957a2f872dfa97fbd9ce5",
+    "content_chars": 2986,
+    "forms": [],
+    "links": [
+      "/coach-kevin.html",
+      "/coach-shereacutee.html",
+      "https://www.aquilachristianinternational.net/aquila-international",
+      "/in-person-appointments.html",
+      "/zoomfacetime-appointments.html",
+      "/testimonials.html",
+      "/standards--ethics.html",
+      "/mission-statement.html",
+      "/privacy--confidentiality.html",
+      "/disclaimer.html",
+      "/coaching-for-men.html",
+      "/types-of-coaching.html"
+    ],
+    "images": [
+      "/uploads/2/4/3/7/24378647/published/kevin2020-1_1.jpg",
+      "/uploads/2/4/3/7/24378647/published/sheree2018_13.jpg"
+    ],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/connect-with-us.html",
+    "path": "connect-with-us.html",
+    "title": "Connect with Us",
+    "sha256": "f7eb53d26d94ebe50cbfce78a8544538f64d92ea615b572538f8f9512e21e90a",
+    "content_chars": 1087,
+    "forms": [
+      {
+        "action": "//www.weebly.com/weebly/apps/formSubmit.php",
+        "method": "POST",
+        "fields": [
+          {
+            "name": "_u591433381397433013[first]",
+            "type": "text",
+            "label": "First"
+          },
+          {
+            "name": "_u591433381397433013[last]",
+            "type": "text",
+            "label": "Last"
+          },
+          {
+            "name": "_u252407693101516036",
+            "type": null,
+            "label": null
+          },
+          {
+            "name": "_u333905647996242475",
+            "type": "text",
+            "label": null
+          },
+          {
+            "name": "_u323937929538945427[number]",
+            "type": "text",
+            "label": null
+          },
+          {
+            "name": "_u166661856328742272",
+            "type": "text",
+            "label": null
+          },
+          {
+            "name": "_u453737331760142204",
+            "type": "radio",
+            "label": null
+          },
+          {
+            "name": "_u453737331760142204",
+            "type": "radio",
+            "label": null
+          },
+          {
+            "name": "_u453737331760142204",
+            "type": "radio",
+            "label": null
+          },
+          {
+            "name": "_u453737331760142204",
+            "type": "radio",
+            "label": null
+          },
+          {
+            "name": "_u453737331760142204",
+            "type": "radio",
+            "label": null
+          },
+          {
+            "name": "_u850138711910425745[Open-Heart Coaching for Emotional Healing]",
+            "type": "checkbox",
+            "label": null
+          },
+          {
+            "name": "_u850138711910425745[Marriage/Family/Relationship Restoration Coaching]",
+            "type": "checkbox",
+            "label": null
+          },
+          {
+            "name": "_u850138711910425745[Personal Productivity Coaching for Efficiency]",
+            "type": "checkbox",
+            "label": null
+          },
+          {
+            "name": "_u850138711910425745[Life Purpose Coaching for Direction]",
+            "type": "checkbox",
+            "label": null
+          },
+          {
+            "name": "_u850138711910425745[Coaching for Abuse]",
+            "type": "checkbox",
+            "label": null
+          },
+          {
+            "name": "_u850138711910425745[Behavioral Strength Assessment Testing]",
+            "type": "checkbox",
+            "label": null
+          },
+          {
+            "name": "_u850138711910425745[All of the above]",
+            "type": "checkbox",
+            "label": null
+          },
+          {
+            "name": "_u850138711910425745[Teaching/Training Event]",
+            "type": "checkbox",
+            "label": null
+          },
+          {
+            "name": "_u850138711910425745[Other]",
+            "type": "checkbox",
+            "label": null
+          },
+          {
+            "name": "_u344758540638003138",
+            "type": null,
+            "label": null
+          },
+          {
+            "name": "wsite_subject",
+            "type": "hidden",
+            "label": null
+          },
+          {
+            "name": "form_version",
+            "type": "hidden",
+            "label": null
+          },
+          {
+            "name": "wsite_approved",
+            "type": "hidden",
+            "label": null
+          },
+          {
+            "name": "ucfid",
+            "type": "hidden",
+            "label": null
+          },
+          {
+            "name": "recaptcha_token",
+            "type": "hidden",
+            "label": null
+          },
+          {
+            "name": null,
+            "type": "submit",
+            "label": null
+          }
+        ]
+      }
+    ],
+    "links": [],
+    "images": [],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/donate.html",
+    "path": "donate.html",
+    "title": "Donate",
+    "sha256": "5f78dee982f28e01ffccb2ec742aeb1c50a9e84bc6cdc34056867b731862682c",
+    "content_chars": 701,
+    "forms": [
+      {
+        "action": "https://www.paypal.com/cgi-bin/webscr",
+        "method": "post",
+        "fields": [
+          {
+            "name": "cmd",
+            "type": "hidden",
+            "label": null
+          },
+          {
+            "name": "hosted_button_id",
+            "type": "hidden",
+            "label": null
+          },
+          {
+            "name": "submit",
+            "type": "image",
+            "label": null
+          }
+        ]
+      }
+    ],
+    "links": [],
+    "images": [
+      "https://www.paypal.com/en_US/i/scr/pixel.gif"
+    ],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/communication.html",
+    "path": "communication.html",
+    "title": "Communication",
+    "sha256": "6ca2b7e835a7644bbf6dba22a6fc0f15a19d64f1646a8f700b0b3a825aec54dd",
+    "content_chars": 3466,
+    "forms": [],
+    "links": [
+      "/smartphones.html"
+    ],
+    "images": [
+      "/uploads/2/4/3/7/24378647/24261081-s_2.jpg",
+      "/uploads/2/4/3/7/24378647/do-you-know-2_orig.jpg",
+      "/uploads/2/4/3/7/24378647/19411697-s_2.jpg"
+    ],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/discipleship-coaching.html",
+    "path": "discipleship-coaching.html",
+    "title": "Discipleship Coaching",
+    "sha256": "2cbc56c341332a1421ca67acc7c36e60c7d27a76aea7c23c9e00a3af02699abf",
+    "content_chars": 1330,
+    "forms": [],
+    "links": [],
+    "images": [
+      "/uploads/2/4/3/7/24378647/editor/11217441-s_6.jpg"
+    ],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/are-you-ready.html",
+    "path": "are-you-ready.html",
+    "title": "Are you ready?",
+    "sha256": "739ec5356ccc6652c142b6e516dc9ffeb4b4f15e8b6e3cde6dff2abe1ad5babc",
+    "content_chars": 1763,
+    "forms": [],
+    "links": [
+      "https://hearttoheart.timetap.com",
+      "/types-of-coaching.html",
+      "/invest-in-yourself.html"
+    ],
+    "images": [],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/training.html",
+    "path": "training.html",
+    "title": "Training",
+    "sha256": "d423753411aa4050f2981a384efac70a2cf5b3461e5e0d1088e866822bf9b502",
+    "content_chars": 1994,
+    "forms": [],
+    "links": [
+      "https://hearttoheart.timetap.com",
+      "/invest-in-yourself.html",
+      "/cancellation-policy.html"
+    ],
+    "images": [
+      "/uploads/2/4/3/7/24378647/19524493-s_orig.jpg"
+    ],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/relationship-coaching.html",
+    "path": "relationship-coaching.html",
+    "title": "Relationship Coaching",
+    "sha256": "c8be91f397e61d5f72ce995a0f76de2d8eaeb5ab80c7d79100bd192d40bc003e",
+    "content_chars": 5026,
+    "forms": [],
+    "links": [
+      "/communication.html"
+    ],
+    "images": [
+      "/uploads/2/4/3/7/24378647/published/10135096-s_7.jpg",
+      "/uploads/2/4/3/7/24378647/published/10234142-s_4.jpg",
+      "/uploads/2/4/3/7/24378647/editor/24261081-s_4.jpg",
+      "/uploads/2/4/3/7/24378647/published/32636415-s_6.jpg?1634264757",
+      "/uploads/2/4/3/7/24378647/editor/85023805-s_3.jpg",
+      "/uploads/2/4/3/7/24378647/published/new-hth-logo.jpg?1634264874",
+      "/uploads/2/4/3/7/24378647/18732495-s_4.jpg",
+      "/uploads/2/4/3/7/24378647/published/sheree2018.jpg?1634265070"
+    ],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/smartphones.html",
+    "path": "smartphones.html",
+    "title": "Smartphones",
+    "sha256": "5c4d90e244bff10ea2831852e421fcd59b8c3ce0b091ceede88d7b52bae5053a",
+    "content_chars": 9290,
+    "forms": [],
+    "links": [],
+    "images": [
+      "/uploads/2/4/3/7/24378647/car-crash_orig.jpeg"
+    ],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/coaching-for-abuse.html",
+    "path": "coaching-for-abuse.html",
+    "title": "Coaching for Abuse",
+    "sha256": "cb28041fcef97dfb80361d113a635ba6fe0a78ab0932b84363ce375f5818b59c",
+    "content_chars": 889,
+    "forms": [],
+    "links": [
+      "/abuse.html",
+      "/support-group.html",
+      "/coach-shereacutee.html"
+    ],
+    "images": [
+      "/uploads/2/4/3/7/24378647/disclaimer-abuse_orig.jpg",
+      "/uploads/2/4/3/7/24378647/editor/sheree2018_9.jpg"
+    ],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/open-heart-coaching.html",
+    "path": "open-heart-coaching.html",
+    "title": "Open-Heart Coaching",
+    "sha256": "e5925b5d56b6d2c29481103e154f652de7aa2734d8141128bf0553091074fb71",
+    "content_chars": 3062,
+    "forms": [],
+    "links": [
+      "/orphan-wound.html",
+      "/emotional-healing.html",
+      "/coach-shereacutee.html"
+    ],
+    "images": [
+      "/uploads/2/4/3/7/24378647/published/40257830-scrop.jpg?1627328703",
+      "/uploads/2/4/3/7/24378647/published/36331874-crop.jpg?1634253388",
+      "/uploads/2/4/3/7/24378647/editor/sheree2018_3.jpg?1587568841"
+    ],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/about-start-at-start.html",
+    "path": "about-start-at-start.html",
+    "title": "About Start at Start",
+    "sha256": "113d5327407092ead2c19c77f5d88cc97685dc25e48072ec20ade5add6e1a2e6",
+    "content_chars": 8731,
+    "forms": [],
+    "links": [],
+    "images": [
+      "/uploads/2/4/3/7/24378647/editor/sas-book-cover.jpg?1730506565",
+      "/uploads/2/4/3/7/24378647/editor/sas-workbook-cover.jpg?1730506770",
+      "/uploads/2/4/3/7/24378647/published/eventjournalcover.jpg?1733633953"
+    ],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/coach-kevin.html",
+    "path": "coach-kevin.html",
+    "title": "Coach Kevin",
+    "sha256": "02ab802ae0dd9ed97ed1a158d4df6cd3f6641e5a3257582b4337da41768a2f97",
+    "content_chars": 4030,
+    "forms": [],
+    "links": [
+      "/glass-walls.html",
+      "/the-calling-for-kevin.html",
+      "/coaching-for-men.html"
+    ],
+    "images": [
+      "/uploads/2/4/3/7/24378647/published/kevin2020.jpg?1595427868",
+      "/uploads/2/4/3/7/24378647/published/kevin2020-1.jpg?1595445092"
+    ],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/what-is-empowerment-coaching.html",
+    "path": "what-is-empowerment-coaching.html",
+    "title": "What is Empowerment Coaching?",
+    "sha256": "d658dbc1b1373ed9913f27365ab6ec2dd9afde9de858a014ec08f8f0d5b2c564",
+    "content_chars": 1737,
+    "forms": [],
+    "links": [
+      "/about-your-coach.html"
+    ],
+    "images": [
+      "/uploads/2/4/3/7/24378647/published/sheree2018.jpg?1634175045"
+    ],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/coaching-for-men.html",
+    "path": "coaching-for-men.html",
+    "title": "Coaching For Men",
+    "sha256": "575d09239c5bb19e6feacc3772fd0d56c85d2527718c072cf36a6e46c1759265",
+    "content_chars": 2403,
+    "forms": [],
+    "links": [
+      "/discipleship-coaching.html",
+      "/",
+      "/in-person-appointments.html",
+      "/zoomfacetime-appointments.html",
+      "http://weebly-link/",
+      "/invest-in-yourself.html",
+      "/cancellation-policy.html"
+    ],
+    "images": [],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/motavation.html",
+    "path": "motavation.html",
+    "title": "Motavation",
+    "sha256": "406f8c07951c15fdc8ab4aab81fa0b4d583849346c29929919e02785f2b6397a",
+    "content_chars": 1942,
+    "forms": [],
+    "links": [
+      "/types-of-coaching.html"
+    ],
+    "images": [
+      "/uploads/2/4/3/7/24378647/published/122179271-s.jpg?1627331047"
+    ],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/family-coaching.html",
+    "path": "family-coaching.html",
+    "title": "Family Coaching",
+    "sha256": "2687db5be2a68b7501a355d88a47eb5734e92df49c9960b8e3c67f74a5b2d0f5",
+    "content_chars": 291,
+    "forms": [],
+    "links": [],
+    "images": [],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/types-of-coaching.html",
+    "path": "types-of-coaching.html",
+    "title": "Types of Coaching",
+    "sha256": "fddea0cca8d656e7fc989e44c1d7ebcc55c5a2eb80e71de3ed40134f3e9014f7",
+    "content_chars": 3622,
+    "forms": [],
+    "links": [
+      "/emotional-healing.html",
+      "/relationship-coaching.html",
+      "/productivity-coaching.html",
+      "/life-purpose-coaching.html",
+      "/phone-appointments.html",
+      "/zoomfacetime-appointments.html",
+      "/in-person-appointments.html",
+      "/invest-in-yourself.html"
+    ],
+    "images": [],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/standards--ethics.html",
+    "path": "standards--ethics.html",
+    "title": "Standards & Ethics",
+    "sha256": "f7c2d33ff0dde17b7c67515571b8bacd859ca91bc9c125b9d676db27de2628cc",
+    "content_chars": 2089,
+    "forms": [],
+    "links": [
+      "/coach-shereacutee.html",
+      "/types-of-coaching.html"
+    ],
+    "images": [],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/hardship.html",
+    "path": "hardship.html",
+    "title": "Hardship",
+    "sha256": "04da58ba8fe0c8be24d98057a926a53f01816a62e0a8853378f7c50fe9f34c59",
+    "content_chars": 1195,
+    "forms": [],
+    "links": [],
+    "images": [],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/f-a-q.html",
+    "path": "f-a-q.html",
+    "title": "F. A. Q.",
+    "sha256": "9c47a516414e987e4f3cd58ff8bc67a2fc58c7526393cd6bc8bb612888c1c2aa",
+    "content_chars": 6910,
+    "forms": [],
+    "links": [
+      "/free-consultation.html",
+      "/invest-in-yourself.html",
+      "https://hearttoheart.timetap.com",
+      "/cancellation-policy.html",
+      "/emotional-healing.html",
+      "/in-person-appointments.html",
+      "/phone-appointments.html",
+      "/zoomfacetime-appointments.html",
+      "/connect-with-us.html"
+    ],
+    "images": [],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/productivity-coaching.html",
+    "path": "productivity-coaching.html",
+    "title": "Productivity Coaching",
+    "sha256": "efb9acf9097e54590b96a8aae3ff9f959e3da3dd3f125ca162be7a3c77a6c1ec",
+    "content_chars": 753,
+    "forms": [],
+    "links": [],
+    "images": [
+      "/uploads/2/4/3/7/24378647/published/85003057-s.jpg?1634334880"
+    ],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/teenage-stress.html",
+    "path": "teenage-stress.html",
+    "title": "Teenage Stress",
+    "sha256": "2f12df8f368d508a9f693c06e77d6de9ceff4b5d8af0d72e779b5fbdc0b23fd9",
+    "content_chars": 3978,
+    "forms": [],
+    "links": [
+      "/invest-in-yourself.html"
+    ],
+    "images": [],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/narcissism.html",
+    "path": "narcissism.html",
+    "title": "Narcissism",
+    "sha256": "215bbe5a59b57e1572de677d9f3a53cb73bc75839e9711d9e124fa30816ed487",
+    "content_chars": 9632,
+    "forms": [],
+    "links": [],
+    "images": [
+      "/uploads/2/4/3/7/24378647/disclaimer-abuse_orig.jpg"
+    ],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/support-group.html",
+    "path": "support-group.html",
+    "title": "SUPPORT GROUP",
+    "sha256": "961a08b962395f6f3ee2e0fb68f57e9a6143a91d2aba5e80bfd9d54b4ca18a7f",
+    "content_chars": 3298,
+    "forms": [],
+    "links": [
+      "https://support.hearttoheartlifecoaching.com/index.html",
+      "/cdn-cgi/l/email-protection#741c1115060007061d07111513151d1a341319151d185a171b1a"
+    ],
+    "images": [],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/about-your-coach.html",
+    "path": "about-your-coach.html",
+    "title": "About Your Coach",
+    "sha256": "112e181b71ce489db2eab2cc65b2feda6f19650c4ca68b6faaacde9e6dbee231",
+    "content_chars": 2183,
+    "forms": [],
+    "links": [
+      "/coach-shereacutee.html",
+      "/phone-appointments.html",
+      "/zoomfacetime-appointments.html",
+      "/testimonials.html",
+      "/types-of-coaching.html",
+      "/standards--ethics.html",
+      "/mission-statement.html",
+      "/privacy--confidentiality.html",
+      "/disclaimer.html"
+    ],
+    "images": [
+      "/uploads/2/4/3/7/24378647/published/sheree24.jpg?1728501741"
+    ],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/life-purpose-coaching.html",
+    "path": "life-purpose-coaching.html",
+    "title": "Life Purpose Coaching",
+    "sha256": "d7977f140da317bfce21877cae2ccc9ad18b4c0147b0ebc9f476748a9be18a5a",
+    "content_chars": 1806,
+    "forms": [],
+    "links": [
+      "/emotional-healing.html",
+      "/coach-shereacutee.html"
+    ],
+    "images": [
+      "/uploads/2/4/3/7/24378647/editor/27146724-s_1.jpg?1589754275",
+      "/uploads/2/4/3/7/24378647/editor/sheree2018_3.jpg?1587578603"
+    ],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/pre-coaching-session-form.html",
+    "path": "pre-coaching-session-form.html",
+    "title": "Pre-Coaching Session Form",
+    "sha256": "094928aaa02bf85f302121aa87ee8387b0b6863d3a368743d9502414914cf77f",
+    "content_chars": 452,
+    "forms": [],
+    "links": [
+      "/uploads/2/4/3/7/24378647/pre-coaching_form-v2_2.pdf"
+    ],
+    "images": [
+      "//www.weebly.com/weebly/images/file_icons/pdf.png"
+    ],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/index.html",
+    "path": "index.html",
+    "title": "Empowerment Coaching",
+    "sha256": "b898d034f91276ff062f4e23f65cdbcdff08cce0f62e9e15e6599cb43832d07a",
+    "content_chars": 3697,
+    "forms": [],
+    "links": [
+      "/what-is-empowerment-coaching.html",
+      "/types-of-coaching.html",
+      "http://www.shereebergman.com",
+      "/about-your-coach.html",
+      "/glass-walls.html"
+    ],
+    "images": [
+      "/uploads/2/4/3/7/24378647/deepred-squarerec_3_orig.jpg",
+      "/uploads/2/4/3/7/24378647/self-help-books-for-transformation-and-growth_orig.png",
+      "/uploads/2/4/3/7/24378647/published/sheree2018.jpg?1634183896",
+      "/uploads/2/4/3/7/24378647/editor/new-hth-logo_6.jpg?1586912552"
+    ],
+    "embeds": [],
+    "scripts": [
+      "/gdpr/gdprscript.js?buildTime=1792181558"
+    ]
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/coach-shereacutee.html",
+    "path": "coach-shereacutee.html",
+    "title": "Coach Sher\u00e9e",
+    "sha256": "d9286e110181d09c342ed91f226c1aa850a4ba2103b2bcddfc4b05231fbe3b7f",
+    "content_chars": 6309,
+    "forms": [],
+    "links": [
+      "/glass-walls.html",
+      "/the-calling-for-sheree.html",
+      "/standards--ethics.html",
+      "/mission-statement.html",
+      "/privacy--confidentiality.html",
+      "/disclaimer.html",
+      "/types-of-coaching.html"
+    ],
+    "images": [
+      "/uploads/2/4/3/7/24378647/published/sheree24.jpg?1728501592",
+      "/uploads/2/4/3/7/24378647/published/img-1606.jpg?1690135784",
+      "/uploads/2/4/3/7/24378647/published/img-5623.jpeg?1690135842"
+    ],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/in-person-appointments.html",
+    "path": "in-person-appointments.html",
+    "title": "In-Person Appointments",
+    "sha256": "9bc6013cff954d10864d53b930682c20e187be4420925931f9a55aa29a0fa660",
+    "content_chars": 772,
+    "forms": [],
+    "links": [
+      "/schedule-appointment.html",
+      "https://hearttoheartlifecoaching.as.me/",
+      "/invest-in-yourself.html",
+      "/cancellation-policy.html"
+    ],
+    "images": [],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/marriage-restoration.html",
+    "path": "marriage-restoration.html",
+    "title": "Marriage Restoration",
+    "sha256": "a6c840337ec5f9bdd49255a629f0f6d75ae0fa301d1757af246b5c1b7bba98fe",
+    "content_chars": 1835,
+    "forms": [],
+    "links": [
+      "http://www.hearttoheartlifecoaching.com/"
+    ],
+    "images": [],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/mission-statement.html",
+    "path": "mission-statement.html",
+    "title": "Mission Statement",
+    "sha256": "dab645d1a160fc4348b915756588ca4b0882565a2797572faaefbb7674c7c2db",
+    "content_chars": 396,
+    "forms": [],
+    "links": [],
+    "images": [],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/shop.html",
+    "path": "shop.html",
+    "title": "SHOP",
+    "sha256": "a75ad08cd543c1a8dbd595d05ce823c7facf9d6ea04c8664cc2c78ea63716017",
+    "content_chars": 438,
+    "forms": [],
+    "links": [
+      "/about-start-at-start.html"
+    ],
+    "images": [
+      "/uploads/2/4/3/7/24378647/published/sas-book-cover.jpg?1792299385",
+      "/uploads/2/4/3/7/24378647/published/guide-front-v3.jpg?1792299287",
+      "/uploads/2/4/3/7/24378647/published/journal-front-v4.jpg?1792299416"
+    ],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/hearts-links-we-like-hearts.html",
+    "path": "hearts-links-we-like-hearts.html",
+    "title": "\u2665 LINKS WE LIKE \u2665",
+    "sha256": "b29497902f4783f55b592735a51c0f12dc24f417e7f64f48a964c32ddf7cdc5b",
+    "content_chars": 965,
+    "forms": [],
+    "links": [
+      "http://www.aquilachristian.org",
+      "https://christquestministries.com/new-here/"
+    ],
+    "images": [
+      "/uploads/2/4/3/7/24378647/editor/larry-and-donna_3.jpg",
+      "/uploads/2/4/3/7/24378647/editor/5254162_4.jpg"
+    ],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/pre-coaching-report.html",
+    "path": "pre-coaching-report.html",
+    "title": "Pre-Coaching Report",
+    "sha256": "0172c2e027baac8a884a06e40816803af5ef4438c35c8fa324f8af4481052ad1",
+    "content_chars": 1317,
+    "forms": [
+      {
+        "action": "//www.weebly.com/weebly/apps/formSubmit.php",
+        "method": "POST",
+        "fields": [
+          {
+            "name": "_u958814795988165365[first]",
+            "type": "text",
+            "label": "First"
+          },
+          {
+            "name": "_u958814795988165365[last]",
+            "type": "text",
+            "label": "Last"
+          },
+          {
+            "name": "_u465200017683723396",
+            "type": "text",
+            "label": null
+          },
+          {
+            "name": "_u248625715909110600",
+            "type": "text",
+            "label": null
+          },
+          {
+            "name": "_u530311389600576748",
+            "type": "text",
+            "label": null
+          },
+          {
+            "name": "_u830686369296069340",
+            "type": null,
+            "label": null
+          },
+          {
+            "name": "_u565115902341126041",
+            "type": null,
+            "label": null
+          },
+          {
+            "name": "_u171440220589284851",
+            "type": null,
+            "label": null
+          },
+          {
+            "name": "_u611735040899906346",
+            "type": null,
+            "label": null
+          },
+          {
+            "name": "_u384698034840089910",
+            "type": null,
+            "label": null
+          },
+          {
+            "name": "_u879389622522188809",
+            "type": null,
+            "label": null
+          },
+          {
+            "name": "_u389899290247596566",
+            "type": null,
+            "label": null
+          },
+          {
+            "name": "_u508181192485727949",
+            "type": null,
+            "label": null
+          },
+          {
+            "name": "_u775270047225695377",
+            "type": null,
+            "label": null
+          },
+          {
+            "name": "wsite_subject",
+            "type": "hidden",
+            "label": null
+          },
+          {
+            "name": "form_version",
+            "type": "hidden",
+            "label": null
+          },
+          {
+            "name": "wsite_approved",
+            "type": "hidden",
+            "label": null
+          },
+          {
+            "name": "ucfid",
+            "type": "hidden",
+            "label": null
+          },
+          {
+            "name": "recaptcha_token",
+            "type": "hidden",
+            "label": null
+          },
+          {
+            "name": null,
+            "type": "submit",
+            "label": null
+          }
+        ]
+      }
+    ],
+    "links": [],
+    "images": [],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/disclaimer.html",
+    "path": "disclaimer.html",
+    "title": "Disclaimer",
+    "sha256": "0677efe1fe51d35c1526d034e7c85cd1a9599309fe5b02b569e56d6efee80a0a",
+    "content_chars": 1410,
+    "forms": [],
+    "links": [],
+    "images": [],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/orphan-wound.html",
+    "path": "orphan-wound.html",
+    "title": "Orphan Wound",
+    "sha256": "c0d2d05efcc7899a33705735b405a26d9d72fa19555b011b425bf4552cb3feba",
+    "content_chars": 2454,
+    "forms": [],
+    "links": [],
+    "images": [
+      "/uploads/2/4/3/7/24378647/published/47015498-ssq.jpg?1634258159",
+      "/uploads/2/4/3/7/24378647/published/man-silhouette.jpg?1634257956",
+      "/uploads/2/4/3/7/24378647/published/42067417-s-1-wai.jpg?1634257638"
+    ],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/cancellation-policy.html",
+    "path": "cancellation-policy.html",
+    "title": "Cancellation Policy",
+    "sha256": "3976e706e3a55caa527b86a3931fc2c149690b6ba6746e4ecff4b7dc3a3a3942",
+    "content_chars": 945,
+    "forms": [],
+    "links": [
+      "https://hearttoheart.timetap.com"
+    ],
+    "images": [],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/testimonials.html",
+    "path": "testimonials.html",
+    "title": "Testimonials",
+    "sha256": "7d9edcad82ad23d69e81cc28c2843b398c4a99aa16ffe7f9e97c6dc56d90dbc6",
+    "content_chars": 5175,
+    "forms": [],
+    "links": [],
+    "images": [],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/grief-and-joy-restoration.html",
+    "path": "grief-and-joy-restoration.html",
+    "title": "Grief and Joy Restoration",
+    "sha256": "9f449473dfa6a6e1ade236f6b21cd7cc09c70dfe6eb076b17bc742f4b0e2c252",
+    "content_chars": 15816,
+    "forms": [],
+    "links": [
+      "http://joyrestorationcoaching.weebly.com/5-stages-of-grief.html"
+    ],
+    "images": [],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/prof-organizing-coaching.html",
+    "path": "prof-organizing-coaching.html",
+    "title": "Prof.  Organizing Coaching",
+    "sha256": "7ea81b0cf23a77e4327ffecd7f774d29e54240f8a3af22039f5f78f46ca73dfa",
+    "content_chars": 2514,
+    "forms": [],
+    "links": [
+      "http://www.getorganizedbysheree.com/virtual-vs-hands-on-organizing.html",
+      "http://www.getorganizedbysheree.com/virtual-organizing.html",
+      "http://www.getorganizedbysheree.com",
+      "http://www.getorganizedbysheree.com/52-week-plan.html",
+      "/types-of-coaching.html"
+    ],
+    "images": [
+      "/uploads/2/4/3/7/24378647/9549800_2.jpg"
+    ],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/blog.html",
+    "path": "blog.html",
+    "title": "Blog",
+    "sha256": "ea35d1db83fea8a43d6a392f892ccf7fc5f5f72fe05ccf204a594c988460fc3c",
+    "content_chars": 3,
+    "forms": [],
+    "links": [],
+    "images": [],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/free-consultation.html",
+    "path": "free-consultation.html",
+    "title": "Free Consultation",
+    "sha256": "ddc19cc311e97fb342dd050c3dd49818ea43f22467ad13e7a9e7fb802c2e7034",
+    "content_chars": 1044,
+    "forms": [],
+    "links": [
+      "https://hearttoheart.timetap.com"
+    ],
+    "images": [],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/why-coaching.html",
+    "path": "why-coaching.html",
+    "title": "Why Coaching?",
+    "sha256": "3018786d78119c5455e32ed7a30cde9dc37dc34fa73f74182f0bce3b271bfa5e",
+    "content_chars": 2425,
+    "forms": [],
+    "links": [
+      "/types-of-coaching.html"
+    ],
+    "images": [
+      "/uploads/2/4/3/7/24378647/editor/21171251-s_10.jpg?1589748883",
+      "/uploads/2/4/3/7/24378647/published/7971140-s_14.jpg"
+    ],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/upcoming-events.html",
+    "path": "upcoming-events.html",
+    "title": "UPCOMING EVENTS",
+    "sha256": "31cfc1e4592b1ea0aa2181b0442d06a65ddf12183e48ca910d135a1fa84e54af",
+    "content_chars": 445,
+    "forms": [],
+    "links": [
+      "https://support.hearttoheartlifecoaching.com/index.html"
+    ],
+    "images": [
+      "/uploads/2/4/3/7/24378647/editor/45472042-s_3.jpg?1635989782"
+    ],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/zoomfacetime-appointments.html",
+    "path": "zoomfacetime-appointments.html",
+    "title": "ZOOM/FACETIME/ Appointments",
+    "sha256": "0ea3419574caa4d1762da4beca9f030190808cbaabbed9b0e5847f4a4d352cb0",
+    "content_chars": 2166,
+    "forms": [],
+    "links": [
+      "/phone-appointments.html",
+      "https://hearttoheart.timetap.com",
+      "/invest-in-yourself.html",
+      "/cancellation-policy.html"
+    ],
+    "images": [],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/saved-items.html",
+    "path": "saved-items.html",
+    "title": "SAVED ITEMS",
+    "sha256": "6c9679772d343b89aed61c202ba6b020174f27feed39d5c26b0db1f82b993d25",
+    "content_chars": 1053,
+    "forms": [],
+    "links": [
+      "/blog/glass-walls"
+    ],
+    "images": [
+      "/uploads/2/4/3/7/24378647/editor/11841324-s_5.jpg",
+      "/uploads/2/4/3/7/24378647/editor/29384268-s_3.jpg",
+      "/uploads/2/4/3/7/24378647/grey-square1_3.jpg",
+      "/uploads/2/4/3/7/24378647/deepred-square3_4.jpg",
+      "/uploads/2/4/3/7/24378647/published/deepred-rectangle-2_3.jpg",
+      "/uploads/2/4/3/7/24378647/edited/36331874-croplongmw_4.jpg",
+      "/uploads/2/4/3/7/24378647/edited/42215471-s_3.jpg",
+      "/uploads/2/4/3/7/24378647/published/deepred-rectangle-1_4.jpg"
+    ],
+    "embeds": [],
+    "scripts": [
+      "//app.icontact.com/icp/core/mycontacts/signup/designer/form/automatic?id=2&cid=1435013&lid=7819"
+    ]
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/pre-marital-coaching.html",
+    "path": "pre-marital-coaching.html",
+    "title": "Pre-Marital Coaching",
+    "sha256": "7b30b870bb59ba09c6f31d5fa4a8fbf3f72ba19da8694103a7335e5f1a275053",
+    "content_chars": 1402,
+    "forms": [],
+    "links": [],
+    "images": [],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/glass-walls.html",
+    "path": "glass-walls.html",
+    "title": "Glass Walls",
+    "sha256": "ee66c55ccb3e6322f1d3900ad8da86c7f07c6cda694d89efdd97907c65ad1617",
+    "content_chars": 2805,
+    "forms": [],
+    "links": [
+      "http://www.shereebergman.com/books.html"
+    ],
+    "images": [
+      "/uploads/2/4/3/7/24378647/editor/36331874-crop.jpg?1595357802",
+      "/uploads/2/4/3/7/24378647/editor/40257830-s_2.jpg?1586919527"
+    ],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/become-a-christian.html",
+    "path": "become-a-christian.html",
+    "title": "Become a Christian",
+    "sha256": "534199975280c01c0296dbdf73ae30e212e76870f39608df38b2b4f35fa76870",
+    "content_chars": 2052,
+    "forms": [],
+    "links": [],
+    "images": [
+      "/uploads/2/4/3/7/24378647/published/iloveyoumorethananything_3.jpg"
+    ],
+    "embeds": [
+      "//www.youtube.com/embed/zJvqmhGs1Y8?wmode=opaque"
+    ],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/emotional-healing.html",
+    "path": "emotional-healing.html",
+    "title": "Emotional Healing",
+    "sha256": "609aa27b463f632b3834a8c6c09dd4b6b6239e158f1d32d79da4a2352a2932e9",
+    "content_chars": 2142,
+    "forms": [],
+    "links": [
+      "/coaching-for-abuse.html",
+      "/characteristics-of-a-narcissist.html",
+      "/orphan-wound.html"
+    ],
+    "images": [
+      "/uploads/2/4/3/7/24378647/published/31720023-s.jpg?1634254134"
+    ],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/do-i-need-a-life-coach.html",
+    "path": "do-i-need-a-life-coach.html",
+    "title": "Do I need a Life Coach?",
+    "sha256": "3a04ecb17d41c40a5269edef368d30647e2e00d74c5a00dbfc6fe87784043daf",
+    "content_chars": 2888,
+    "forms": [],
+    "links": [
+      "/invest-in-yourself.html",
+      "/types-of-coaching.html",
+      "/coach-shereacutee.html"
+    ],
+    "images": [
+      "/uploads/2/4/3/7/24378647/editor/69820641-s.jpg?1631746409",
+      "/uploads/2/4/3/7/24378647/published/22339080-s.jpg?1631746328",
+      "/uploads/2/4/3/7/24378647/editor/11841324-s_4.jpg",
+      "/uploads/2/4/3/7/24378647/editor/sheree2018_3.jpg?1587582176"
+    ],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/invest-in-yourself.html",
+    "path": "invest-in-yourself.html",
+    "title": "Invest in Yourself",
+    "sha256": "9524ab791f88e2bb0879232c8dc2ffaafb0c3ea22d0aa1dd28123ad0e333ac2a",
+    "content_chars": 6707,
+    "forms": [
+      {
+        "action": "https://www.paypal.com/cgi-bin/webscr",
+        "method": "post",
+        "fields": [
+          {
+            "name": "cmd",
+            "type": "hidden",
+            "label": null
+          },
+          {
+            "name": "hosted_button_id",
+            "type": "hidden",
+            "label": null
+          },
+          {
+            "name": "submit",
+            "type": "image",
+            "label": null
+          }
+        ]
+      }
+    ],
+    "links": [
+      "https://hearttoheart.timetap.com",
+      "https://support.hearttoheartlifecoaching.com/index.html"
+    ],
+    "images": [
+      "/uploads/2/4/3/7/24378647/2218873_2.jpg",
+      "/uploads/2/4/3/7/24378647/editor/21677906-s.jpg?1635990756",
+      "/uploads/2/4/3/7/24378647/published/pasted-2026-10-12-at-2-25-52-am.png?1792297344",
+      "/uploads/2/4/3/7/24378647/published/9579037_3.jpg?1635991020",
+      "/uploads/2/4/3/7/24378647/published/13012757-s1.jpg?1635991050",
+      "/uploads/2/4/3/7/24378647/published/heart-world-banner_1.jpg",
+      "https://www.paypal.com/en_US/i/scr/pixel.gif"
+    ],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/privacy--confidentiality.html",
+    "path": "privacy--confidentiality.html",
+    "title": "Privacy & Confidentiality",
+    "sha256": "f8560aa4ea4463291da0c1f209a28d503c65c26319f33b0249b3419c0ffd1e97",
+    "content_chars": 2334,
+    "forms": [],
+    "links": [
+      "/standards--ethics.html"
+    ],
+    "images": [],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/we-believe.html",
+    "path": "we-believe.html",
+    "title": "We Believe",
+    "sha256": "ccaacf793d982ae2dfc3709e44c52464263d369fd58889d1f86916291424bbe7",
+    "content_chars": 1676,
+    "forms": [],
+    "links": [],
+    "images": [],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/therapy-dog.html",
+    "path": "therapy-dog.html",
+    "title": "Therapy Dog",
+    "sha256": "3621c673b982f311ef19f5ae337de03359835dd0747316946340c415e2dfde88",
+    "content_chars": 1210,
+    "forms": [],
+    "links": [
+      "/uploads/2/4/3/7/24378647/5797514_2_orig.jpg",
+      "https://www.instagram.com/petite_zizi/"
+    ],
+    "images": [
+      "/uploads/2/4/3/7/24378647/editor/8679001_3.jpg",
+      "/uploads/2/4/3/7/24378647/5797514_2.jpg",
+      "/uploads/2/4/3/7/24378647/published/img-0862_3.jpeg",
+      "/uploads/2/4/3/7/24378647/5063874_2.jpg",
+      "/uploads/2/4/3/7/24378647/2127604_2.jpg",
+      "/uploads/2/4/3/7/24378647/published/img-1201_3.jpeg"
+    ],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/assessments.html",
+    "path": "assessments.html",
+    "title": "Assessments",
+    "sha256": "ca9103f4063b475960564144bf009d144213d68c098b15f52633a6b2d2102e90",
+    "content_chars": 2168,
+    "forms": [],
+    "links": [],
+    "images": [],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/______________________.html",
+    "path": "______________________.html",
+    "title": "______________________",
+    "sha256": "581bcc9d25d6773e54a1e889aeee30c2880e684cd31d83605cd05e069732c525",
+    "content_chars": 47,
+    "forms": [],
+    "links": [],
+    "images": [],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/marriage-restoration-retreat.html",
+    "path": "marriage-restoration-retreat.html",
+    "title": "Marriage Restoration Retreat",
+    "sha256": "2cfbad9265b4e69f8e8f01ab157d94898fc0ca4b33b12128e7851bc32e8d856a",
+    "content_chars": 3066,
+    "forms": [],
+    "links": [],
+    "images": [],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/testimonial-form.html",
+    "path": "testimonial-form.html",
+    "title": "Testimonial Form",
+    "sha256": "4491390b97e478b0119ca0370fe3c1a9593c56cf7f622fd5e62be25190532879",
+    "content_chars": 674,
+    "forms": [
+      {
+        "action": "//www.weebly.com/weebly/apps/formSubmit.php",
+        "method": "POST",
+        "fields": [
+          {
+            "name": "_u147389901768647707[first]",
+            "type": "text",
+            "label": "First"
+          },
+          {
+            "name": "_u147389901768647707[last]",
+            "type": "text",
+            "label": "Last"
+          },
+          {
+            "name": "_u815060089838594251",
+            "type": "text",
+            "label": null
+          },
+          {
+            "name": "_u584787237274911607",
+            "type": null,
+            "label": null
+          },
+          {
+            "name": "_u472045437604057635",
+            "type": "text",
+            "label": null
+          },
+          {
+            "name": "_u320422860324034198",
+            "type": "radio",
+            "label": null
+          },
+          {
+            "name": "_u320422860324034198",
+            "type": "radio",
+            "label": null
+          },
+          {
+            "name": "_u320422860324034198",
+            "type": "radio",
+            "label": null
+          },
+          {
+            "name": "_u320422860324034198",
+            "type": "radio",
+            "label": null
+          },
+          {
+            "name": "wsite_subject",
+            "type": "hidden",
+            "label": null
+          },
+          {
+            "name": "form_version",
+            "type": "hidden",
+            "label": null
+          },
+          {
+            "name": "wsite_approved",
+            "type": "hidden",
+            "label": null
+          },
+          {
+            "name": "ucfid",
+            "type": "hidden",
+            "label": null
+          },
+          {
+            "name": "recaptcha_token",
+            "type": "hidden",
+            "label": null
+          },
+          {
+            "name": null,
+            "type": "submit",
+            "label": null
+          }
+        ]
+      }
+    ],
+    "links": [],
+    "images": [],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/blended-family-coaching.html",
+    "path": "blended-family-coaching.html",
+    "title": "Blended Family Coaching",
+    "sha256": "b8311a00e1af63b54874155717652f67b134340456716f1e07897868e140a063",
+    "content_chars": 47,
+    "forms": [],
+    "links": [],
+    "images": [],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/orphan-wound-men.html",
+    "path": "orphan-wound-men.html",
+    "title": "Orphan Wound-Men",
+    "sha256": "0be59bb78a9fb4d7fcfa77e880e9a9f343ad7ca72fcacd028150a95d00cafa39",
+    "content_chars": 2355,
+    "forms": [],
+    "links": [],
+    "images": [
+      "/uploads/2/4/3/7/24378647/man-silhouette_orig.jpg"
+    ],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/couples-coaching.html",
+    "path": "couples-coaching.html",
+    "title": "Couples Coaching",
+    "sha256": "4e27fb1a8a4ca3feeb53ce308feb715dbf6608f053d8ba3901dbc9441b7db5df",
+    "content_chars": 286,
+    "forms": [],
+    "links": [],
+    "images": [],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/bring-us-to-you.html",
+    "path": "bring-us-to-you.html",
+    "title": "****Bring us to you",
+    "sha256": "67c96fcde275c3eb0f0a02e2337dd0ba77c96dafca1ddb9bb15c20949efeef48",
+    "content_chars": 365,
+    "forms": [],
+    "links": [
+      "/connect-with-us.html"
+    ],
+    "images": [],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/post-coaching-report.html",
+    "path": "post-coaching-report.html",
+    "title": "Post-Coaching Report",
+    "sha256": "c8a5d3a67151bc9fdaa97891680fbef9adfdb1e53aaf67389c7a74259ff5b081",
+    "content_chars": 1042,
+    "forms": [
+      {
+        "action": "//www.weebly.com/weebly/apps/formSubmit.php",
+        "method": "POST",
+        "fields": [
+          {
+            "name": "_u853865903732753714[first]",
+            "type": "text",
+            "label": "First"
+          },
+          {
+            "name": "_u853865903732753714[last]",
+            "type": "text",
+            "label": "Last"
+          },
+          {
+            "name": "_u940972568368266997",
+            "type": "text",
+            "label": null
+          },
+          {
+            "name": "_u433290436915571598",
+            "type": "text",
+            "label": null
+          },
+          {
+            "name": "_u608795345901848249",
+            "type": "text",
+            "label": null
+          },
+          {
+            "name": "_u374858727131294126",
+            "type": null,
+            "label": null
+          },
+          {
+            "name": "_u302829403783101093",
+            "type": null,
+            "label": null
+          },
+          {
+            "name": "_u694595340522369927",
+            "type": null,
+            "label": null
+          },
+          {
+            "name": "_u288263931372114751",
+            "type": null,
+            "label": null
+          },
+          {
+            "name": "_u956371536949976826",
+            "type": null,
+            "label": null
+          },
+          {
+            "name": "wsite_subject",
+            "type": "hidden",
+            "label": null
+          },
+          {
+            "name": "form_version",
+            "type": "hidden",
+            "label": null
+          },
+          {
+            "name": "wsite_approved",
+            "type": "hidden",
+            "label": null
+          },
+          {
+            "name": "ucfid",
+            "type": "hidden",
+            "label": null
+          },
+          {
+            "name": "recaptcha_token",
+            "type": "hidden",
+            "label": null
+          },
+          {
+            "name": null,
+            "type": "submit",
+            "label": null
+          }
+        ]
+      }
+    ],
+    "links": [],
+    "images": [],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/client-intake-packet.html",
+    "path": "client-intake-packet.html",
+    "title": "Client Intake Packet",
+    "sha256": "f05cb890ffb99a8e1835712996c4418b3acf13456ac705426acf61188f3e246c",
+    "content_chars": 858,
+    "forms": [],
+    "links": [
+      "/uploads/2/4/3/7/24378647/welcome_letter-v4_2.pdf",
+      "/uploads/2/4/3/7/24378647/client_info_form-v4_2.pdf",
+      "/uploads/2/4/3/7/24378647/expectation_sheet-v3_2.pdf",
+      "/uploads/2/4/3/7/24378647/photo_consent-v4_2.pdf",
+      "/uploads/2/4/3/7/24378647/intake_questionnaire-v3_2.pdf"
+    ],
+    "images": [
+      "//www.weebly.com/weebly/images/file_icons/pdf.png"
+    ],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/quotes-about-relationships.html",
+    "path": "quotes-about-relationships.html",
+    "title": "Quotes about Relationships",
+    "sha256": "15f86765955d167ddf3b9e01297161c9c5e6481757846ed594b0b09107e18f1a",
+    "content_chars": 3782,
+    "forms": [],
+    "links": [],
+    "images": [],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/phone-appointments.html",
+    "path": "phone-appointments.html",
+    "title": "Phone Appointments",
+    "sha256": "319874a190f899c176eb4fbb8fdc860c728c2f82c1b61e4106da1e722ce31862",
+    "content_chars": 2113,
+    "forms": [],
+    "links": [
+      "/zoomfacetime-appointments.html",
+      "https://hearttoheart.timetap.com",
+      "/invest-in-yourself.html",
+      "/cancellation-policy.html"
+    ],
+    "images": [],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/schedule-appointment.html",
+    "path": "schedule-appointment.html",
+    "title": "Schedule Appointment",
+    "sha256": "9663c4f771704bc46017b8538c293603a4295a15772b83d690dd9435b92231fa",
+    "content_chars": 970,
+    "forms": [
+      {
+        "action": "https://www.paypal.com/cgi-bin/webscr",
+        "method": "post",
+        "fields": [
+          {
+            "name": "cmd",
+            "type": "hidden",
+            "label": null
+          },
+          {
+            "name": "hosted_button_id",
+            "type": "hidden",
+            "label": null
+          },
+          {
+            "name": "submit",
+            "type": "image",
+            "label": null
+          }
+        ]
+      }
+    ],
+    "links": [],
+    "images": [
+      "/uploads/2/4/3/7/24378647/editor/heart-world-banner.jpg?1635294009",
+      "https://www.paypal.com/en_US/i/scr/pixel.gif"
+    ],
+    "embeds": [
+      "https://www.timetap.com/emb/358758"
+    ],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/characteristics-of-a-narcissist.html",
+    "path": "characteristics-of-a-narcissist.html",
+    "title": "Characteristics of a Narcissist?",
+    "sha256": "cbdb9c2b410bd0a8b81139068e1a0d3b931ae4e08e6a97393f4631d3d05b7c38",
+    "content_chars": 5626,
+    "forms": [],
+    "links": [
+      "/narcissism.html"
+    ],
+    "images": [
+      "/uploads/2/4/3/7/24378647/disclaimer-abuse_orig.jpg"
+    ],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/the-calling-for-kevin.html",
+    "path": "the-calling-for-kevin.html",
+    "title": "The Calling for Kevin",
+    "sha256": "785c3d442325a5aa34cc73af79747369ff85d9c2232ae5e0d696c5d761a10a98",
+    "content_chars": 2484,
+    "forms": [],
+    "links": [],
+    "images": [],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/abuse.html",
+    "path": "abuse.html",
+    "title": "Abuse",
+    "sha256": "6af06928737171fb7924f328ada58daf00380473b56baac1ff19463d4767a69f",
+    "content_chars": 3711,
+    "forms": [],
+    "links": [
+      "/characteristics-of-a-narcissist.html",
+      "/support-group.html"
+    ],
+    "images": [
+      "/uploads/2/4/3/7/24378647/editor/32636415-s_5.jpg",
+      "/uploads/2/4/3/7/24378647/disclaimer-abuse_orig.jpg"
+    ],
+    "embeds": [],
+    "scripts": [
+      "/gdpr/gdprscript.js?buildTime=1792181558"
+    ]
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/does-life-coaching-work.html",
+    "path": "does-life-coaching-work.html",
+    "title": "Does Life Coaching Work?",
+    "sha256": "1a729510f113dfdf6b65d5051f198088a1e39e4fe3d1473aa8c4e00260b372ab",
+    "content_chars": 1019,
+    "forms": [],
+    "links": [
+      "/types-of-coaching.html"
+    ],
+    "images": [
+      "/uploads/2/4/3/7/24378647/published/13012757-s_4.jpg"
+    ],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/the-calling-for-sheree.html",
+    "path": "the-calling-for-sheree.html",
+    "title": "The Calling for Sheree",
+    "sha256": "dc8c98ec57a705efb6b3e7892616fd96eee36db30163d5b63c62ea7bb56cb160",
+    "content_chars": 3566,
+    "forms": [],
+    "links": [
+      "/types-of-coaching.html"
+    ],
+    "images": [],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/us-in-the-future.html",
+    "path": "us-in-the-future.html",
+    "title": "****Us in the future",
+    "sha256": "bf5fb7043b738f0306488d8cbef0334ed039a66592887eb037bce1621880565f",
+    "content_chars": 1114,
+    "forms": [],
+    "links": [],
+    "images": [],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/career-coaching.html",
+    "path": "career-coaching.html",
+    "title": "Career Coaching",
+    "sha256": "143feb9279f16402ef08e5559621ce2bed44be74776a343b93944322be0d8a1d",
+    "content_chars": 987,
+    "forms": [],
+    "links": [
+      "/types-of-coaching.html",
+      "/invest-in-yourself.html"
+    ],
+    "images": [
+      "/uploads/2/4/3/7/24378647/2656662_2.jpg"
+    ],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/blended-family.html",
+    "path": "blended-family.html",
+    "title": "Blended Family",
+    "sha256": "d400918f02e3188cdac4e07bc614ae3d3ec88a6db7c773a0d8c6c4b0872929c9",
+    "content_chars": 389,
+    "forms": [],
+    "links": [],
+    "images": [],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/store/p19/VIRTUAL_APPT._-_LIFE_COACHING.html",
+    "path": "store/p19/VIRTUAL_APPT._-_LIFE_COACHING.html",
+    "title": "VIRTUAL APPT. - LIFE COACHING",
+    "sha256": "9ea00de98640ffe6ee533ebe519f1a34718198faeb1ad9f589cb8c1d4e88981a",
+    "content_chars": 1934,
+    "forms": [
+      {
+        "action": null,
+        "method": null,
+        "fields": [
+          {
+            "name": "Appointment Preference",
+            "type": null,
+            "label": null
+          }
+        ]
+      },
+      {
+        "action": null,
+        "method": null,
+        "fields": []
+      }
+    ],
+    "links": [
+      "/uploads/2/4/3/7/24378647/s706765004141374166_p19_i5_w300.jpeg",
+      "https://facebook.com/sharer.php?u=http%3A%2F%2Fwww.hearttoheartlifecoaching.com%2Fstore%2Fp19%2FVIRTUAL_APPT._-_LIFE_COACHING.html",
+      "https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.hearttoheartlifecoaching.com%2Fstore%2Fp19%2FVIRTUAL_APPT._-_LIFE_COACHING.html&text=VIRTUAL+APPT.+-+LIFE+COACHING",
+      "https://pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.hearttoheartlifecoaching.com%2Fstore%2Fp19%2FVIRTUAL_APPT._-_LIFE_COACHING.html&description=LIFE+COACHING+%28VIRTUAL%29+This+appointment+will+either+be+by+Skype+or+FaceTime.%C2%A0E-mail+us+to+let+us+know+which+way+is+best+for+you.+For+SKYPE+users+our+name+is%3A%C2%A0hearttoheartlifecoaching%C2%A0+PLEASE+SELECT+THE+QUANTITY+FOR+THE+NUMBER+OF+HOURS+YOU+ARE+CHOOSING+TO+PURCHASE.+A+Contract%2FAgreement+will+be+emailed+to+you+within+the+next+24-48%C2%A0hours+for+you+to+read+over+and+sign.%C2%A0Please+get+that+back+to+us+right+away+so+we+can+schedule%2Fhold+your+appointment.+%E2%80%8BYOU+ARE+RESPONSIBLE+FOR+MAKING+THE+CALL+TO+THE+COACH+AT+THE+TIME+OF+YOUR+APPOINTMENT.%C2%A0%C2%A0+%28Suggested+times%3A+Once+a+week.%C2%A0This+will+give+you+time+to+internalize+your+last+session%2C+do+any+homework+that+was+given%2C+and+not+get+too+far+from+your+last+session+so+you+don%27t+loose+your+momentum.%C2%A0If+once+a+week+can+not+be+achieved%2C+it+is+suggested+not+to+let+appointments+span+out+longer+than+bi-weekly.%29+Don%27t+forget+you+may+also+use+PayPal+Credit+%226+MONTHS+TO+PAY+WITH+NO+INTEREST%22.%C2%A0It+will+be+near+the+end+of+the+check+out.&media=http%3A%2F%2Fwww.hearttoheartlifecoaching.com%2Fuploads%2F2%2F4%2F3%2F7%2F24378647%2Fs706765004141374166_p19_i5_w300.jpeg",
+      "https://plus.google.com/share?url=http%3A%2F%2Fwww.hearttoheartlifecoaching.com%2Fstore%2Fp19%2FVIRTUAL_APPT._-_LIFE_COACHING.html"
+    ],
+    "images": [
+      "/uploads/2/4/3/7/24378647/s706765004141374166_p19_i5_w300.jpeg"
+    ],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/store/p59/IN-OFFICE_LIFE_COACHING.html",
+    "path": "store/p59/IN-OFFICE_LIFE_COACHING.html",
+    "title": "IN-OFFICE LIFE COACHING",
+    "sha256": "4828bc297e6685e986855f679c1e36ebbd9fa5ff5b90ef50d9ccec9bd2dc92da",
+    "content_chars": 1685,
+    "forms": [
+      {
+        "action": null,
+        "method": null,
+        "fields": []
+      },
+      {
+        "action": null,
+        "method": null,
+        "fields": []
+      }
+    ],
+    "links": [
+      "/uploads/2/4/3/7/24378647/s706765004141374166_p59_i1_w300.jpeg",
+      "https://facebook.com/sharer.php?u=http%3A%2F%2Fwww.hearttoheartlifecoaching.com%2Fstore%2Fp59%2FIN-OFFICE_LIFE_COACHING.html",
+      "https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.hearttoheartlifecoaching.com%2Fstore%2Fp59%2FIN-OFFICE_LIFE_COACHING.html&text=IN-OFFICE+LIFE+COACHING",
+      "https://pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.hearttoheartlifecoaching.com%2Fstore%2Fp59%2FIN-OFFICE_LIFE_COACHING.html&description=LIFE+COACHING+%28IN-OFFICE%29+This+appointment+will+be+at+the+office+in+Algonquin%2C+IL.%C2%A0%28by+appointment+only%29+PLEASE+SELECT+THE+QUANTITY+FOR+THE+NUMBER+OF+HOURS+YOU+ARE+CHOOSING+TO+PURCHASE.+A+Contract%2FAgreement+will+be+emailed+to+you+within+the+next+24-48%C2%A0hours+for+you+to+read+over+and+sign.%C2%A0Please+get+that+back+to+us+right+away+so+we+can+schedule%2Fhold+your+appointment.+%E2%80%8BYOU+ARE+RESPONSIBLE+FOR+SHOWING+UP+ON+TIME.+WE+CAN+NOT+ADD+TO+ANY+TIME+IF+YOU+ARE+LATE+BECAUSE+WE+HAVE+SCHEDULED+APPOINTMENTS+AFTER+YOURS.+%28Suggested+times%3A+Once+a+week.%C2%A0This+will+give+you+time+to+internalize+your+last+session%2C+do+any+homework+that+was+given%2C+and+not+get+too+far+from+your+last+session+so+you+don%27t+loose+your+momentum.%C2%A0If+once+a+week+can+not+be+achieved%2C+it+is+suggested+not+to+let+appointments+span+out+longer+than+bi-weekly.%29+Don%27t+forget+you+may+also+use+PayPal+Credit+%226+MONTHS+TO+PAY+WITH+NO+INTEREST%22.%C2%A0It+will+be+near+the+end+of+the+check+out.&media=http%3A%2F%2Fwww.hearttoheartlifecoaching.com%2Fuploads%2F2%2F4%2F3%2F7%2F24378647%2Fs706765004141374166_p59_i1_w300.jpeg",
+      "https://plus.google.com/share?url=http%3A%2F%2Fwww.hearttoheartlifecoaching.com%2Fstore%2Fp59%2FIN-OFFICE_LIFE_COACHING.html"
+    ],
+    "images": [
+      "/uploads/2/4/3/7/24378647/s706765004141374166_p59_i1_w300.jpeg"
+    ],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/store/p61/%28%28%28%28EMERGENCY%29%29%29%29_VIRTUAL_APPT._-_LIFE_COACHING_%2860-minutes%29.html",
+    "path": "store/p61/%28%28%28%28EMERGENCY%29%29%29%29_VIRTUAL_APPT._-_LIFE_COACHING_%2860-minutes%29.html",
+    "title": "((((EMERGENCY)))) VIRTUAL APPT. - LIFE COACHING (60-minutes)",
+    "sha256": "5ef951930bfe1bde5cce92f9cdbfce334c39db0b11770df78d44d3760d4b5f8b",
+    "content_chars": 1726,
+    "forms": [
+      {
+        "action": null,
+        "method": null,
+        "fields": []
+      },
+      {
+        "action": null,
+        "method": null,
+        "fields": []
+      }
+    ],
+    "links": [
+      "/uploads/2/4/3/7/24378647/s706765004141374166_p61_i1_w300.jpeg",
+      "https://facebook.com/sharer.php?u=http%3A%2F%2Fwww.hearttoheartlifecoaching.com%2Fstore%2Fp61%2F%2528%2528%2528%2528EMERGENCY%2529%2529%2529%2529_VIRTUAL_APPT._-_LIFE_COACHING_%252860-minutes%2529.html",
+      "https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.hearttoheartlifecoaching.com%2Fstore%2Fp61%2F%2528%2528%2528%2528EMERGENCY%2529%2529%2529%2529_VIRTUAL_APPT._-_LIFE_COACHING_%252860-minutes%2529.html&text=%28%28%28%28EMERGENCY%29%29%29%29+VIRTUAL+APPT.+-+LIFE+COACHING+%2860-minutes%29",
+      "https://pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.hearttoheartlifecoaching.com%2Fstore%2Fp61%2F%2528%2528%2528%2528EMERGENCY%2529%2529%2529%2529_VIRTUAL_APPT._-_LIFE_COACHING_%252860-minutes%2529.html&description=%28%28%28%28EMERGENCY%29%29%29%29+LIFE+COACHING+%28VIRTUAL%29+We+also+do+emergency+sessions+if+you+want+to+deal+with+a+pop-up+situation+as+long+as+we+have+an+opening+in+our+schedule.%C2%A0You+may+text%2C+email+or+call+%28leave+a+message%29+to+see+if+there+is+a+possible+opening+for+this.%C2%A0This+would+also+require+prepayment+of+%24100%2Fhour.This+appointment+will+either+be+by+Skype+or+FaceTime.%C2%A0E-mail+us+to+let+us+know+which+way+is+best+for+you.+For+SKYPE+users+our+name+is%3A%C2%A0hearttoheartlifecoaching%C2%A0+PLEASE+SELECT+THE+QUANTITY+FOR+THE+NUMBER+OF+HOURS+YOU+ARE+CHOOSING+TO+PURCHASE.+A+Contract%2FAgreement+will+be+emailed+to+you+within+the+next+few%C2%A0hours+for+you+to+read+over+and+sign.%C2%A0Please+get+that+back+to+us+right+away+so+we+can+schedule%2Fhold+your+appointment.+%E2%80%8BYOU+ARE+RESPONSIBLE+FOR+MAKING+THE+CALL+TO+THE+COACH+AT+THE+TIME+OF+YOUR+APPOINTMENT.%C2%A0%C2%A0++Don%27t+forget+you+may+also+use+PayPal+Credit+%226+MONTHS+TO+PAY+WITH+NO+INTEREST%22.%C2%A0It+will+be+near+the+end+of+the+check+out.&media=http%3A%2F%2Fwww.hearttoheartlifecoaching.com%2Fuploads%2F2%2F4%2F3%2F7%2F24378647%2Fs706765004141374166_p61_i1_w300.jpeg",
+      "https://plus.google.com/share?url=http%3A%2F%2Fwww.hearttoheartlifecoaching.com%2Fstore%2Fp61%2F%2528%2528%2528%2528EMERGENCY%2529%2529%2529%2529_VIRTUAL_APPT._-_LIFE_COACHING_%252860-minutes%2529.html"
+    ],
+    "images": [
+      "/uploads/2/4/3/7/24378647/s706765004141374166_p61_i1_w300.jpeg"
+    ],
+    "embeds": [],
+    "scripts": []
+  },
+  {
+    "url": "https://www.hearttoheartlifecoaching.com/store/c1/Featured_Products.html",
+    "path": "store/c1/Featured_Products.html",
+    "title": "Featured Products",
+    "sha256": "f7b8fd5d89d5fe25d270db8139a5e0f948a8c722bd2fb5501610b33a81e92bd8",
+    "content_chars": 705,
+    "forms": [],
+    "links": [
+      "/store/p19/VIRTUAL_APPT._-_LIFE_COACHING.html",
+      "/store/p59/IN-OFFICE_LIFE_COACHING.html",
+      "/store/p61/%28%28%28%28EMERGENCY%29%29%29%29_VIRTUAL_APPT._-_LIFE_COACHING_%2860-minutes%29.html"
+    ],
+    "images": [
+      "/uploads/2/4/3/7/24378647/s706765004141374166_p19_i5_w300.jpeg",
+      "/uploads/2/4/3/7/24378647/s706765004141374166_p59_i1_w300.jpeg",
+      "/uploads/2/4/3/7/24378647/s706765004141374166_p61_i1_w300.jpeg"
+    ],
+    "embeds": [],
+    "scripts": []
+  }
+]
