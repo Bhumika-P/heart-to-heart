@@ -13,3 +13,17 @@ document.addEventListener('keydown', event => {
   }
 });
 document.querySelectorAll('[data-year]').forEach(element => element.textContent = new Date().getFullYear());
+
+// Align the homepage support link beneath the header discovery button.
+const heroSupport = document.querySelector('.hero-support');
+const discoveryButton = document.querySelector('.header-join');
+function alignSupportButton() {
+  if (!heroSupport || !discoveryButton) return;
+  if (window.innerWidth <= 640) { heroSupport.style.removeProperty('right'); return; }
+  const headerBounds = discoveryButton.getBoundingClientRect();
+  const heroBounds = heroSupport.closest('.main-hero').getBoundingClientRect();
+  heroSupport.style.right = `${heroBounds.right - (headerBounds.left + headerBounds.width / 2) - heroSupport.offsetWidth / 2}px`;
+}
+alignSupportButton();
+window.addEventListener('resize', alignSupportButton);
+document.fonts?.ready.then(alignSupportButton);

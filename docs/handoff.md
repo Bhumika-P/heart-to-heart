@@ -73,3 +73,13 @@ Coach Sherée (coach-shereacutee.html) is the single active About page. The top 
 - Extra Links temporarily hidden: footer link and sitemap entry removed; public directory replaced with update notice. Original page and readable link list preserved beside site in Heart to Heart - Private Client Resources/extra-links-original.html and Extra Links.md. Underlying individual pages unchanged.
 
 - Explore every page temporarily hidden: All pages footer/404 links and sitemap entry removed; directory replaced with unavailable notice. Original HTML and readable page list saved outside site root in Heart to Heart - Private Client Resources. Individual pages remain available at their addresses.
+
+## Resources and FAQ update — October 24, 2026
+
+- Resources for your journey now follows support Helpful Resources sections (five book cards, Polaris music, workbook tools); original main title retained and confidentiality agreement card omitted. Added local workbooks.html matching the support companion-guide page; support repository untouched.
+- f-a-q.html replaced with owner-supplied FAQ copy: 46 native details/summary disclosures in ten sections, closed by default, with real scheduling, policy, service and support links. F.A.Q. footer link immediately left of Testimonials on all standard pages. Copy also preserved in content/faq.json.
+- Static checker passed 96 pages. Browser verified click-open and keyboard-close, 46 initially closed answers, no horizontal overflow at 320px FAQ or 390px Resources, five loaded covers and matching desktop resource layout. Screenshot: work/faq-preview.png. No commit, push, deployment, or support-site changes.
+
+- Restored Resources headphone background by copying missing support concept-details.png asset into main site. Centered Tools & Guides eyebrow/title and its single workbook box. Browser screenshot verified matching headphone picture on left and centered tools. Updated Heal opening Glass Walls and Orphan Wound sections with exact supplied replacement; asserted HTML from What Is Open-Heart Coaching onward unchanged. Static check passed 96 pages; no CP.
+
+- Updated orphan-wound.html with owner-supplied father/identity reflection text and 21 questions; linked Orphan Wound within the Heal page mindset sentence. Updated become-a-christian.html with requested YouTube embed, gospel text and centered prayer box (tan/white inset border). Footer Become a Christian immediately precedes F.A.Q. on standard pages. Static checker passed 96 pages; focused assertions verified destinations, question count, footer order and video ID. Local only, no CP.
