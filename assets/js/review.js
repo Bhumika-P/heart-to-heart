@@ -14,6 +14,7 @@ for (const form of document.querySelectorAll('[data-local-form]')) {
     update();
   }
   button.type = 'submit';
+  if (form.hasAttribute('data-main-contact')) continue;
   form.addEventListener('submit', event => {
     event.preventDefault();
     status.textContent = 'This is a local review. Your information has not been sent or saved. The private submission service will be connected before launch.';

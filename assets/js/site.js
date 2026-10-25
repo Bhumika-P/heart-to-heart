@@ -1,3 +1,5 @@
+// Normalize explicitly entered index.html addresses to their directory URL.
+if (location.pathname.endsWith('/index.html')) location.replace(location.pathname.slice(0,-10)+location.search+location.hash);
 const toggle = document.querySelector('.menu-toggle');
 const navigation = document.querySelector('#navigation');
 function setMenu(open) {

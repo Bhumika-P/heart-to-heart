@@ -3,20 +3,21 @@ from pathlib import Path
 from urllib.parse import urlparse,unquote
 from lxml import html,etree
 import json,re
+from clean_urls import clean_file,clean_route
 ROOT=Path(__file__).resolve().parent.parent
 rows=json.loads((ROOT/'docs/migration-inventory.json').read_text())
 redirects=json.loads((ROOT/'content/redirects.json').read_text())
 errors=[];count=0;forms=0;images=0
 additional_pages=[p['path'] for p in json.loads((ROOT/'content/pages.json').read_text()) if p['path'] not in {r['path'] for r in rows}]
 for name in [r['path'] for r in rows]+additional_pages+['resources.html','extra-links.html','all-pages.html','404.html']:
- p=ROOT/unquote(name)
+ p=ROOT/unquote(clean_file(name) if name not in redirects else name)
  if not p.exists():errors.append(f'Missing page: {name}');continue
  count+=1;d=html.fromstring(p.read_bytes())
  if name in redirects:
   destination=redirects[name]
-  if not (ROOT/destination).exists():errors.append(f'{name}: redirect target missing')
-  if not d.xpath('//meta[@http-equiv="refresh" and @content=$value]',value='0;url='+destination):errors.append(f'{name}: local redirect missing')
-  if d.xpath('string(//link[@rel="canonical"]/@href)')!='https://www.hearttoheartlifecoaching.com/'+destination:errors.append(f'{name}: redirect canonical incorrect')
+  if not (ROOT/clean_file(destination)).exists():errors.append(f'{name}: redirect target missing')
+  if not d.xpath('//meta[@http-equiv="refresh" and @content=$value]',value='0;url='+__import__('os').path.relpath(ROOT/clean_route(destination),p.parent).replace(__import__('os').sep,'/')+'/'):errors.append(f'{name}: local redirect missing')
+  if d.xpath('string(//link[@rel="canonical"]/@href)')!='https://www.hearttoheartlifecoaching.com/'+clean_route(destination):errors.append(f'{name}: redirect canonical incorrect')
   continue
  for label,query,n in [('h1','//h1',1),('main','//main',1),('canonical','//link[@rel="canonical"]',1),('description','//meta[@name="description"]',1)]:
   if len(d.xpath(query))!=n:errors.append(f'{name}: expected {n} {label}')
@@ -52,12 +53,13 @@ for name in [r['path'] for r in rows]+additional_pages+['resources.html','extra-
 # Every original user-entered form field remains represented.
 for r in rows:
  if r['path'] not in ['connect-with-us.html','testimonial-form.html','pre-coaching-report.html','post-coaching-report.html']:continue
- d=html.fromstring((ROOT/unquote(r['path'])).read_bytes())
+ d=html.fromstring((ROOT/unquote(clean_file(r['path']))).read_bytes())
  expected=[f['name'] for form in r['forms'] for f in form['fields'] if f['type'] not in ['hidden','submit','image'] and f['name']]
  if r['path']=='connect-with-us.html':
   removed={'_u166661856328742272','_u850138711910425745[Life Purpose Coaching for Direction]','_u850138711910425745[Behavioral Strength Assessment Testing]','_u850138711910425745[All of the above]','_u850138711910425745[Teaching/Training Event]'}
   expected=[name for name in expected if name not in removed]
  actual=d.xpath('//form//input/@name|//form//select/@name|//form//textarea/@name')
+ if r['path']=='connect-with-us.html':actual=[name for name in actual if name!='website']
  if sorted(actual)!=sorted(expected):errors.append(f'{r["path"]}: migrated fields differ from source')
 assets=json.loads((ROOT/'docs/asset-inventory.json').read_text())
 pdfs={a['path'] for a in assets if a.get('path','').endswith('.pdf')}

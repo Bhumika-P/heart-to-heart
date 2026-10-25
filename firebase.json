@@ -1,0 +1,4 @@
+{
+  "functions": [{"source":"functions","codebase":"main-contact","runtime":"nodejs22"}],
+  "emulators":{"functions":{"port":5002},"database":{"port":9002},"ui":{"enabled":false},"singleProjectMode":true}
+}

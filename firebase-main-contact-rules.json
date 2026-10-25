@@ -1,0 +1,8 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "mainContactMessages":{".read":"auth != null && root.child('mainContactAdmins').child(auth.uid).val() === true"},
+    "mainContactAdmins":{"$uid":{".read":"auth != null && auth.uid === $uid"}}
+  }
+}

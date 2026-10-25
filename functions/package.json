@@ -1,0 +1,9 @@
+{
+  "name": "heart-to-heart-main-functions",
+  "private": true,
+  "type": "module",
+  "main": "index.js",
+  "engines": {"node": "22"},
+  "scripts": {"test": "node --test ../tests/contact-backend.test.mjs"},
+  "dependencies": {"firebase-admin": "14.5.0", "firebase-functions": "7.4.0", "nodemailer": "^10.0.12"}
+}

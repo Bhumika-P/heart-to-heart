@@ -94,6 +94,7 @@ def template(page,title,description,body,category='Life Coaching',schema_extra=N
  navhtml=''.join(link(u,l,page) for u,l in nav)
  if page!='index.html':
   body='<nav class="breadcrumbs container" aria-label="Breadcrumb"><ol><li>'+link('index.html','Home',page)+'</li><li aria-current="page">'+e(title)+'</li></ol></nav>'+body
+ contact_scripts=(f'<script defer src="{asset("assets/js/contact-config.js",page)}"></script><script defer src="{asset("assets/js/contact.js",page)}"></script>') if page=='connect-with-us.html' else ''
  fonts=''
  hero_preload=f'<link rel="preload" as="image" href="{asset("assets/img/scenery/mountain-sunrise.webp",page)}" fetchpriority="high">' if page=='index.html' else ''
  font_css=ROOT/'assets/css/fonts.css'
@@ -102,9 +103,9 @@ def template(page,title,description,body,category='Life Coaching',schema_extra=N
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(title)} | Heart to Heart Life Coaching</title><meta name="description" content="{e(description,quote=True)}"><meta name="robots" content="noindex,nofollow"><link rel="canonical" href="{canonical}">
 <meta name="theme-color" content="#650d29"><meta property="og:type" content="website"><meta property="og:title" content="{e(title,quote=True)}"><meta property="og:description" content="{e(description,quote=True)}"><meta property="og:url" content="{canonical}"><meta property="og:image" content="https://www.hearttoheartlifecoaching.com/assets/img/Logo/main-logo-burgundy.png">
-<link rel="icon" href="{asset("assets/img/Logo/favicon-concept.png",page)}">{hero_preload}{fonts}<link rel="stylesheet" href="{asset("assets/css/theme.css",page)}"><link rel="stylesheet" href="{asset("assets/css/main.css",page)}"><script defer src="{asset("assets/js/site.js",page)}"></script><script defer src="{asset("assets/js/review.js",page)}"></script>
+<link rel="icon" href="{asset("assets/img/Logo/favicon-concept.png",page)}">{hero_preload}{fonts}<link rel="stylesheet" href="{asset("assets/css/theme.css",page)}"><link rel="stylesheet" href="{asset("assets/css/main.css",page)}"><script defer src="{asset("assets/js/site.js",page)}"></script><script defer src="{asset("assets/js/review.js",page)}"></script>{contact_scripts}
 <script type="application/ld+json">{json.dumps({'@context':'https://schema.org','@graph':graph},ensure_ascii=False).replace('</','<\\/')}</script></head>
-<body><a class="skip-link" href="#main">Skip to content</a><div class="review-banner">Local design review <span>·</span> Forms do not send or save information</div>
+<body><a class="skip-link" href="#main">Skip to content</a>
 <header class="site-header"><div class="container header-inner">{brand(page)}<button class="menu-toggle" aria-controls="navigation" aria-expanded="false" aria-label="Open menu"><span></span><span></span><span></span></button><nav id="navigation" aria-label="Main navigation">{navhtml}</nav><div class="header-actions">{link('schedule-appointment.html','Book a discovery call',page,'button header-join')}</div></div></header>
 <main id="main">{body}</main>
 <section class="closing-cta"><div class="container"><p class="eyebrow">Hope · Healing · Empowerment</p><h2>Take your next step with Heart to Heart</h2><p>Start with a complimentary 20-minute discovery phone call.</p>{link('free-consultation.html','Arrange a discovery call',page,'button light')}</div></section>
@@ -160,4 +161,6 @@ for old,new in REDIRECTS.items():
  label=lookup[new]['title'] if new in lookup else 'Resources for your journey'
  canonical='https://www.hearttoheartlifecoaching.com/'+new
  (ROOT/old).write_text(f'<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta http-equiv="refresh" content="0;url={e(target,quote=True)}"><link rel="canonical" href="{e(canonical,quote=True)}"><title>{e(label)} — page moved</title></head><body><p>This page has moved to <a href="{e(target,quote=True)}">{e(label)}</a>.</p></body></html>\n')
+from clean_urls import generate
+generate(ROOT,[p['path'] for p in pages]+['resources.html','extra-links.html','all-pages.html','404.html'],REDIRECTS)
 print(f'Built {len(pages)} active source pages + resources, Extra Links, directory, 404, and {len(REDIRECTS)} redirects. Local review indexing protections enabled.')
