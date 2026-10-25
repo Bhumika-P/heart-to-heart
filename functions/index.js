@@ -6,6 +6,7 @@ import {defineString,defineSecret} from 'firebase-functions/params';
 import {createHash} from 'node:crypto';
 import nodemailer from 'nodemailer';
 import {validateContact,notificationText} from './contact-validation.js';
+import {notificationHtml} from './contact-email.js';
 const databaseURL=defineString('MAIN_DATABASE_URL');
 const mailTo=defineString('MAIN_MAIL_TO',{default:'hthlifecoaching@gmail.com'});
 const mailFrom=defineString('MAIN_MAIL_FROM');
@@ -33,7 +34,7 @@ async function deliver(ref,record){
   try{
     if(!mailFrom.value()||!smtp.value()||!mailTo.value())throw Error('Email is not configured');
     const transport=nodemailer.createTransport(smtp.value(),{connectionTimeout:10000,socketTimeout:15000});
-    await transport.sendMail({from:mailFrom.value(),to:mailTo.value(),replyTo:record.email,subject:`Heart to Heart main contact: ${record.subject}`,text:notificationText(record)});
+    await transport.sendMail({from:mailFrom.value(),to:mailTo.value(),replyTo:record.email,subject:`Heart to Heart main contact: ${record.subject}`,text:notificationText(record),html:notificationHtml(record)});
     await ref.child('delivery').set({status:'sent',at:Date.now()});return true;
   }catch{
     await ref.child('delivery').set({status:'failed',at:Date.now()});return false;

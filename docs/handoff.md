@@ -111,3 +111,17 @@ Coach Sherée (coach-shereacutee.html) is the single active About page. The top 
 - Firebase CLI callable deployment ignored invoker:public; inspected actual Cloud Run IAM, then applied user-authorized allUsers roles/run.invoker to submitmaincontact only, preserving other bindings. SMTP secret value unchanged/unread.
 - Synthetic endpoint test returned ok:true, emailed:true for hthlifecoaching@gmail.com. Anonymous reads denied. Message ID stored in ignored work/main-contact-live-test.json. No private client data used.
 - Enabled contact-config.js for production and local preview (local contact submissions now send real email). Public website still needs the authorized CP and live browser test. Other submission forms stay local previews; main admin UI is not implemented. Retry endpoint remains transport-restricted.
+
+## Activation push and live verification pending
+
+- Main contact endpoint now publicly callable through explicit Cloud Run allUsers run.invoker binding (only submitmaincontact); backend synthetic test returned ok:true/emailed:true and anonymous stored-message access denied. Relationship option validation fixed and deployed.
+- User explicitly authorized CP/publication. Commit 6636656 is pushed to main; origin/main matches. Includes enabled:true, allowLocalSending:true, config cache version live1 and deployment dependency fixes. Eight tests and 96-page checks pass.
+- The first live browser reload after push still showed the previous disabled form, likely awaiting GitHub Pages publication/cache update. MUST verify actual live activation before claiming end-to-end browser completion. Browser handle liveContactTab is on https://hearttoheartlifecoaching.com/connect-with-us/. Inspect enabled SEND and note; then use synthetic test name Website / Live Form Test, email hthlifecoaching@gmail.com, subject Question, A.M. and P.M., Support Group and optional relationship option, message clearly labeled authorized setup test. Click SEND, verify success and save screenshot. Do not submit real client information.
+- Backend test email subject TEST — main website Firebase connection (no action required), sent to hthlifecoaching@gmail.com; SMTP accepted it, inbox receipt not personally inspected. Other main forms remain previews.
+
+## October 25 — branded main contact email prepared locally
+
+- User confirmed the published main contact form successfully delivered immediately, resolving the older live-verification-pending note above.
+- Built functions/contact-email.js: burgundy/cream HTML email, Main Website label, contact details, selected interests, preferred times, message, encoded mailto reply button. Native Reply-To and plaintext fallback remain. All visitor content is HTML escaped. No dashboard link.
+- Wired HTML into main sendMail. Ten backend/frontend/email tests pass; git diff --check passes.
+- Fictional preview: work/contact-email-preview.html (ignored). Not committed, pushed, or deployed in this turn. Live notifications still use previous plaintext format until backend deployment. Support group repo unchanged; its notification format still needs a separate change if requested.
