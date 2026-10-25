@@ -1,0 +1,41 @@
+{
+  "pages_checked": 96,
+  "source_pages": 84,
+  "active_source_pages": 80,
+  "retired_page_redirects": 4,
+  "forms_checked": 4,
+  "image_instances_checked": 54,
+  "preserved_pdfs": 11,
+  "solid_color_contrast": [
+    {
+      "label": "body",
+      "ratio": 13.06
+    },
+    {
+      "label": "muted",
+      "ratio": 6.73
+    },
+    {
+      "label": "burgundy heading/link",
+      "ratio": 12.07
+    },
+    {
+      "label": "button",
+      "ratio": 12.78
+    },
+    {
+      "label": "eyebrow",
+      "ratio": 6.04
+    },
+    {
+      "label": "review banner",
+      "ratio": 8.83
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "Static and selected browser checks are not a WCAG conformance audit.",
+    "No Lighthouse or field Core Web Vitals measurement has been performed.",
+    "Client forms are local review only; private backend and commerce migration remain outstanding."
+  ]
+}

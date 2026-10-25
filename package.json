@@ -1,0 +1,10 @@
+{
+  "name": "heart-to-heart-main",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local review build of the Heart to Heart main website migration",
+  "scripts": {
+    "build": "python3 scripts/build.py",
+    "check": "python3 scripts/check.py"
+  }
+}

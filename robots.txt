@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /
+# Local/staging review only. Review indexing settings before production.
