@@ -1,4 +1,4 @@
-const interests = new Set(['Open-Heart Coaching for Emotional Healing','Marriage/Family/Relationship Coaching','Emotional Abuse Recovery Coaching','Support Group','Other']);
+const interests = new Set(['Open-Heart Coaching for Emotional Healing','Marriage/Family/Relationship Restoration Coaching','Emotional Abuse Recovery Coaching','Support Group','Other']);
 const times = new Set(['A.M.','P.M.','Weekdays are best','Weekends are best','Anytime is okay']);
 function text(value, label, max, required = true) {
   if (typeof value !== 'string') throw Error(`${label} is invalid.`);

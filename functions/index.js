@@ -12,7 +12,7 @@ const mailFrom=defineString('MAIN_MAIL_FROM');
 const smtp=defineSecret('SMTP_URL');
 let db;
 onInit(()=>{initializeApp({databaseURL:databaseURL.value()});db=getDatabase();});
-const options={region:'us-central1',maxInstances:2,timeoutSeconds:60,secrets:[smtp]};
+const options={region:'us-central1',invoker:'public',maxInstances:2,timeoutSeconds:60,secrets:[smtp]};
 const hash=value=>createHash('sha256').update(value).digest('hex');
 async function throttle(request,email){
   for(const [key,limit] of [[`ip:${request.rawRequest.ip || 'unknown'}`,20],[`email:${email}`,5]]){

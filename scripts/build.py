@@ -94,7 +94,7 @@ def template(page,title,description,body,category='Life Coaching',schema_extra=N
  navhtml=''.join(link(u,l,page) for u,l in nav)
  if page!='index.html':
   body='<nav class="breadcrumbs container" aria-label="Breadcrumb"><ol><li>'+link('index.html','Home',page)+'</li><li aria-current="page">'+e(title)+'</li></ol></nav>'+body
- contact_scripts=(f'<script defer src="{asset("assets/js/contact-config.js",page)}"></script><script defer src="{asset("assets/js/contact.js",page)}"></script>') if page=='connect-with-us.html' else ''
+ contact_scripts=(f'<script defer src="{asset("assets/js/contact-config.js",page)}?v=live1"></script><script defer src="{asset("assets/js/contact.js",page)}"></script>') if page=='connect-with-us.html' else ''
  fonts=''
  hero_preload=f'<link rel="preload" as="image" href="{asset("assets/img/scenery/mountain-sunrise.webp",page)}" fetchpriority="high">' if page=='index.html' else ''
  font_css=ROOT/'assets/css/fonts.css'

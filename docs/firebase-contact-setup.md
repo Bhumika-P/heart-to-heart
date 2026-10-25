@@ -1,3 +1,9 @@
+# Current activation status
+
+The main contact backend and database rule additions have been deployed to hearttoheart-14e56. Public invocation is enabled on the submitmaincontact Cloud Run service; the Firebase CLI did not apply this setting to its callable trigger, so the authorized roles/run.invoker binding was applied directly, preserving other bindings. The retry service remains restricted at the transport layer in addition to its in-handler administrator check. No main-site admin dashboard is implemented.
+
+An authorized synthetic request returned ok:true and emailed:true. Unauthenticated database access was denied. Main-site frontend settings are now enabled, including local preview submissions (which send real email). Other forms remain previews.
+
 # Main website contact form — Firebase setup
 
 Implementation is local only. No main-site backend has been deployed and no SMTP credentials have been copied from the support group.
@@ -30,3 +36,7 @@ Current inactive form deliberately disables SEND and states that sending is not 
 The owner selected sharing the support Firebase project. firebase-shared-rules.review.json preserves all current support rules and adds only mainContactMessages (existing admins may read) and mainContactRateLimits (private). It is a review artifact, not wired to automatic deployment. Refresh it against current support rules before deployment. The standalone rules template is not for this shared project.
 
 Run backend deployment only after owner authorization: `firebase deploy --only functions:main-contact --project hearttoheart-14e56`. The support codebase default must not be deleted or redeployed by this repository. Frontend remains disabled until authorized endpoint/inbox testing succeeds.
+
+## Cloud Build requirements
+
+The pnpm deployment requires @google-cloud/functions-framework as an explicit dependency. functions/pnpm-workspace.yaml approves only the standard @firebase/util and protobufjs postinstall scripts. Initial deployment attempts failed until both requirements were addressed. No support-group function source was changed.

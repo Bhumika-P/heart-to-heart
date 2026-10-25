@@ -36,6 +36,6 @@
   "limitations": [
     "Static and selected browser checks are not a WCAG conformance audit.",
     "No Lighthouse or field Core Web Vitals measurement has been performed.",
-    "Client forms are local review only; private backend and commerce migration remain outstanding."
+    "Main contact email backend is deployed; other forms remain local previews and commerce migration remains outstanding."
   ]
 }
