@@ -192,3 +192,7 @@ input,textarea,select{border-color:#8e7d6e}input::placeholder,textarea::placehol
 .book-detail{display:flow-root}.book-detail-cover{float:left;width:260px;margin:0 40px 24px 0}.book-detail-description{min-width:0}.source-content .book-detail-cover img{margin-top:0;margin-bottom:0}.book-detail-description .source-paragraph{display:block}@media(max-width:640px){.book-detail-cover{float:none;width:min(100%,240px);margin:0 auto 28px}}
 
 .contact-honeypot{position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden}.migrated-form button:disabled{opacity:.7;cursor:not-allowed}
+
+/* Emphasize the homepage coaching service on desktop and mobile. */
+.main-hero .hero-subtitle{font-size:clamp(30px,3vw,38px);font-weight:700}
+.main-hero .hero-subtitle strong{font-weight:700}

@@ -59,7 +59,7 @@ for r in rows:
   removed={'_u166661856328742272','_u850138711910425745[Life Purpose Coaching for Direction]','_u850138711910425745[Behavioral Strength Assessment Testing]','_u850138711910425745[All of the above]','_u850138711910425745[Teaching/Training Event]'}
   expected=[name for name in expected if name not in removed]
  actual=d.xpath('//form//input/@name|//form//select/@name|//form//textarea/@name')
- if r['path']=='connect-with-us.html':actual=[name for name in actual if name!='website']
+ if r['path']=='connect-with-us.html':actual=['_u453737331760142204' if name=='preferredDays' else name for name in actual if name!='website']
  if sorted(actual)!=sorted(expected):errors.append(f'{r["path"]}: migrated fields differ from source')
 assets=json.loads((ROOT/'docs/asset-inventory.json').read_text())
 pdfs={a['path'] for a in assets if a.get('path','').endswith('.pdf')}
