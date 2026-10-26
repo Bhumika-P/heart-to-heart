@@ -205,7 +205,7 @@ input,textarea,select{border-color:#8e7d6e}input::placeholder,textarea::placehol
 #books h2{font-size:clamp(24px,3vw,32px);font-style:italic}
 
 /* Framed encouragement and Scripture, with a single-line service heading. */
-.home-questions .coaching-message{border:2px solid var(--wine);padding:14px 18px}
+.home-questions .coaching-message{border:2px solid #b49a7e;padding:14px 18px}
 .home-founder blockquote{position:relative;border:4px double #9b7957;outline:1px solid #9b7957;outline-offset:-12px;border-radius:18px 4px 18px 4px;padding:30px 25px}
 .home-founder blockquote::before{content:'♥';display:block;color:var(--wine);font-size:20px;line-height:1;margin-bottom:12px}
 .main-hero .hero-copy{container-type:inline-size;max-width:630px}
