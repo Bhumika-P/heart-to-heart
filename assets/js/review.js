@@ -3,7 +3,7 @@ for (const form of document.querySelectorAll('[data-local-form]')) {
   const button = form.querySelector('[data-preview-submit]');
   const status = form.querySelector('[role="status"]');
   for (const group of form.querySelectorAll('[data-checkbox-required]')) {
-    const boxes = [...group.querySelectorAll('input[type="checkbox"]')];
+    const boxes = [...group.querySelectorAll('input[type="checkbox"], input[type="radio"]')];
     const update = () => boxes[0].setCustomValidity(boxes.some(box => box.checked) ? '' : 'Choose at least one option.');
     group.addEventListener('change', update);
     update();

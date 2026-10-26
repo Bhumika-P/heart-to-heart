@@ -125,3 +125,12 @@ Coach Sherée (coach-shereacutee.html) is the single active About page. The top 
 - Built functions/contact-email.js: burgundy/cream HTML email, Main Website label, contact details, selected interests, preferred times, message, encoded mailto reply button. Native Reply-To and plaintext fallback remain. All visitor content is HTML escaped. No dashboard link.
 - Wired HTML into main sendMail. Ten backend/frontend/email tests pass; git diff --check passes.
 - Fictional preview: work/contact-email-preview.html (ignored). Not committed, pushed, or deployed in this turn. Live notifications still use previous plaintext format until backend deployment. Support group repo unchanged; its notification format still needs a separate change if requested.
+
+## October 26 — branded main email deployed and live-tested
+
+- User explicitly authorized deployment and live submission verification, with support-group template unchanged.
+- Firebase CLI deployed only functions:main-contact to hearttoheart-14e56; submitMainContact and retryMainContactEmail updated successfully. No hosting, rules, support functions, or support template deployed.
+- All 10 contact/backend/HTML tests pass.
+- Submitted synthetic Website / Email Template Test through https://hearttoheartlifecoaching.com/connect-with-us/ to the existing hthlifecoaching@gmail.com destination. A.M., Weekdays are best, Support Group selected. Message explicitly TEST, no client information.
+- Live form returned “Thank you. Your message has been received and emailed to Heart to Heart.” confirming storage and SMTP acceptance from the deployed HTML sendMail path. Form reset and SEND re-enabled.
+- Screenshot: ignored work/live-html-email-submission.png. Gmail inbox rendering not directly inspected; no claim of visual Gmail verification. Support group template unchanged.
