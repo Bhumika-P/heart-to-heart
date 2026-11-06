@@ -19,7 +19,10 @@ card_heart='<svg class="icon" viewBox="0 0 40 44" fill="none" stroke="currentCol
 def link(path,label,page,cls=''):
  path=REDIRECTS.get(path,path)
  return f'<a href="{asset(path,page)}"'+(f' class="{cls}"' if cls else '')+(' aria-current="page"' if path==page else '')+f'>{e(label)}</a>'
-def brand(page,include_heart=True,card_style=False):return f'<a class="brand" href="{asset("index.html",page)}" aria-label="Heart to Heart Life Coaching home">{(card_heart if card_style else heart) if include_heart else ""}<span>HEART <i>to</i> HEART<small>LIFE COACHING</small></span></a>'
+def brand(page,include_heart=True,card_style=False):
+ if card_style:return f'<a class="brand card-wordmark" href="{asset("index.html",page)}" aria-label="Heart to Heart Life Coaching home"><img src="{asset("assets/img/Logo/business-card-wordmark.svg",page)}" alt="Heart to Heart Life Coaching" width="590" height="112"></a>'
+ return f'<a class="brand" href="{asset("index.html",page)}" aria-label="Heart to Heart Life Coaching home">{heart if include_heart else ""}<span>HEART <i>to</i> HEART<small>LIFE COACHING</small></span></a>'
+
 def pricing_cards(page):
  info_pages={"discovery-call":"free-consultation.html","phone-virtual":"phone-appointments.html","emergency-phone-virtual":"emergency-phone-virtual-coaching.html"}
  return '<div class="pricing-grid">'+''.join(f'<article class="price-card"><p class="eyebrow">{s["duration_minutes"]}-minute session</p><h2>{e(s["label"])}</h2><p class="price">'+('Complimentary' if s['price']==0 else f'${s["price"]}<span> / hour</span>')+f'</p><p>'+('For established clients with an urgent coaching appointment request.' if s['id'].startswith('emergency') else 'An initial conversation, with no cost or obligation.' if s['price']==0 else 'Connect by phone, Zoom, or FaceTime.')+f'</p><a class="button" href="{asset(info_pages[s["id"]].split("#")[0],page)}{('#'+info_pages[s['id']].split('#')[1]) if '#' in info_pages[s['id']] else ''}" aria-label="More information about {e(s["label"],quote=True)}">More info</a><a class="button" href="https://hearttoheart.timetap.com/#/" target="_blank" rel="noopener noreferrer">View availability<span class="sr-only"> (opens a new tab)</span></a></article>' for s in PRICING['services'])+'</div>'
